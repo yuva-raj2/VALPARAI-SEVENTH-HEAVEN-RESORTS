@@ -7,19 +7,19 @@ import resortCab from "../assets/resort-cab.jpg";
 const services = [
   {
     icon: Car,
-    title: "Cab & Transfer Service",
-    description: "Premium cab service for trekking expeditions, airport pickups, and local sightseeing. Comfortable vehicles with experienced mountain drivers.",
+    title: "Cab & Travel Experience",
+    description: "Seamless pickup, hill driving, and guided sightseeing across Valparai’s tea estates, forest routes, and hidden viewpoints. Travel comfortably with experienced local drivers.",
     image: resortCab,
   },
   {
     icon: Utensils,
-    title: "In-Resort Dining",
-    description: "Savor authentic local cuisine and international dishes prepared by our expert chefs, served in our elegant dining hall with panoramic views.",
+    title: "Homely Dining Experience",
+    description: "Enjoy freshly prepared homely food with authentic South Indian flavors. Custom meal options available for families, couples, and groups.",
     image: resortDining,
   },
   {
     icon: Users,
-    title: "Group Accommodation",
+    title: "Cottages and Group Stay",
     description: "Traveling with a large group? We seamlessly arrange overflow accommodation at our trusted partner resorts nearby — same quality, zero hassle.",
     image: resortRoom,
   },

@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { Button } from "./ui/button";
-import heroImage from "../assets/hero-resort.jfif";
+import heroImage from "../assets/hero-resort.png";
 
 const HeroSection = () => {
   return (
@@ -15,7 +15,7 @@ const HeroSection = () => {
       {/* Navigation */}
       <nav className="absolute top-0 left-0 right-0 z-20 flex items-center justify-between px-6 py-6 md:px-16">
         <h2 className="font-heading text-2xl font-bold text-primary-foreground tracking-wider">
-          SERENITY RESORT
+          GREENARY HEAVEN STAY COTTAGE
         </h2>
         <div className="hidden md:flex items-center gap-8">
           {["Services", "Packages", "Dining", "Book Now"].map((item) => (
@@ -38,7 +38,7 @@ const HeroSection = () => {
           transition={{ duration: 0.8 }}
           className="mb-4 text-sm tracking-[0.3em] uppercase text-primary-foreground/70 font-body"
         >
-          Welcome to Paradise
+          WELCOME TO VALPARAI
         </motion.p>
         <motion.h1
           initial={{ opacity: 0, y: 30 }}
@@ -48,7 +48,7 @@ const HeroSection = () => {
         >
           An Escape Into
           <br />
-          <span className="text-gradient-gold italic">Serenity</span>
+          <span className="text-gradient-gold italic">Misty Serenity</span>
         </motion.h1>
         <motion.p
           initial={{ opacity: 0, y: 20 }}
@@ -56,7 +56,7 @@ const HeroSection = () => {
           transition={{ duration: 0.8, delay: 0.4 }}
           className="mb-10 max-w-xl text-lg text-primary-foreground/80 font-body font-light"
         >
-          Luxury accommodation, exquisite dining, and seamless travel — all nestled in nature's embrace.
+          A peaceful hill retreat in Valparai designed for comfort, connection, and complete relaxation.
         </motion.p>
         <motion.div
           initial={{ opacity: 0, y: 20 }}
